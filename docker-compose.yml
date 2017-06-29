@@ -1,12 +1,12 @@
 version: '2'
 services:
   cloudbdii:
-    image: egifedcloud/cloudbdii 
+    image: cloudbdii
     volumes:
      - /etc/cloud-info-provider/openstack.rc:/etc/cloud-info-provider/openstack.rc
      - /etc/cloud-info-provider/openstack.yaml:/etc/cloud-info-provider/openstack.yaml
   sitebdii:
-    image: egifedcloud/sitebdii 
+    image: sitebdii
     volumes:
      - /etc/sitebdii/site.cfg:/etc/glite-info-static/site/site.cfg
      - /etc/sitebdii/glite-info-site-defaults.conf:/etc/bdii/gip/glite-info-site-defaults.conf
