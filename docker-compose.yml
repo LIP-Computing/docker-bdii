@@ -3,13 +3,13 @@ services:
   cloudbdii:
     image: cloudbdii
     volumes:
-     - /etc/cloud-info-provider/openstack.rc:/etc/cloud-info-provider/openstack.rc
-     - /etc/cloud-info-provider/openstack.yaml:/etc/cloud-info-provider/openstack.yaml
+     - site-conf/openstack.rc:/etc/cloud-info-provider/openstack.rc
+     - site-conf/openstack.yaml:/etc/cloud-info-provider/openstack.yaml
   sitebdii:
     image: sitebdii
     volumes:
-     - /etc/sitebdii/site.cfg:/etc/glite-info-static/site/site.cfg
-     - /etc/sitebdii/glite-info-site-defaults.conf:/etc/bdii/gip/glite-info-site-defaults.conf
+     - site-conf/site.cfg:/etc/glite-info-static/site/site.cfg
+     - site-conf/glite-info-site-defaults.conf:/etc/bdii/gip/glite-info-site-defaults.conf
     links:
      - cloudbdii
     ports:
