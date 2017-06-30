@@ -1,5 +1,4 @@
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
-[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)]()
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)]
 
 docker-bdii: CloudBDII service
 ==============================
