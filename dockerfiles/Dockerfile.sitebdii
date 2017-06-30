@@ -1,5 +1,5 @@
 FROM bdii
-LABEL maintainer Enol Fernandez <enol.fernandez@egi.eu>
+LABEL maintainer Mario David <mariojmdavid@gmail.com>
 
 # Install bdii-site
 RUN yum install -y http://repository.egi.eu/sw/production/umd/4/centos7/x86_64/base/umd-release-4.0.0-1.el7.noarch.rpm \

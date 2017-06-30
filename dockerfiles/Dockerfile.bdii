@@ -1,5 +1,5 @@
 FROM centos:7 
-LABEL maintainer Enol Fernandez <enol.fernandez@egi.eu>
+LABEL maintainer Mario David <mariojmdavid@gmail.com>
 
 RUN yum install -y epel-release \
     && yum install -y bdii supervisor

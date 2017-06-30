@@ -1,5 +1,5 @@
 FROM bdii
-LABEL maintainer Enol Fernandez <enol.fernandez@egi.eu>
+LABEL maintainer Mario David <mariojmdavid@gmail.com>
 
 RUN yum -y install yum-priorities centos-release-openstack-mitaka && \
     yum -y install python-novaclient && \

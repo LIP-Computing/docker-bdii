@@ -11,13 +11,13 @@ compute:
     # Hypervisor version
     hypervisor_version: 0.0.0
     # OpenStack version
-    middleware_version: liberty 
+    middleware_version: mitaka
     # Service Production level (testing, candidate, production...)
     service_production_level: production
     # Service capabilities
     capabilities:
-        - cloud.managementSystem
-        - cloud.vm.uploadImage
+        - executionmanagement.dynamicvmdeploy
+        - security.accounting
 
     endpoints:
         # Default values for the endpoints. We will
